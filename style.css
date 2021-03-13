@@ -1,0 +1,50 @@
+.grid{
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-color: #008060;
+    margin-left: 10px;
+
+}
+
+.grid img{
+
+    border: 20px;
+    border-radius: 20px;
+    border: 2px solid #FFFF00;
+
+}
+
+body{
+
+    background-color: burlywood;
+    border: 5px solid #000000;
+
+}
+
+a:link{
+    color: whitesmoke;
+}
+a:visited{
+    color:whitesmoke
+}
+.item li{
+    opacity:0.66
+}
+
+.item:hover li{
+    opacity:1
+}
+
+.item img{
+opacity:0.8
+}
+
+.item:hover img{
+    opacity:1
+}
+
+.origami:hover{
+    transform:scale(1.4)
+}
